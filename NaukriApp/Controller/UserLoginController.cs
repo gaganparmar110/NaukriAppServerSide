@@ -27,9 +27,6 @@ namespace NaukriApp.Controller
 
         }
 
-        private IActionResult Ok(int isLoggedIn)
-        {
-            throw new NotImplementedException();
-        }
+      
     }
 }

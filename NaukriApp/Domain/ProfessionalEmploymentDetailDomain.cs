@@ -11,7 +11,7 @@ namespace Naukri.com.Domain
     {
         public void EmployeDetailAdd(ProfessionalEmploymentDetails professionalEmploymentDetails)
         {
-            this.ExecuteNonQuery($"insert into ProfessionalEmploymentDetails values ('{professionalEmploymentDetails.CurrentCompany}','{professionalEmploymentDetails.Skills}','{professionalEmploymentDetails.Industry}','{professionalEmploymentDetails.AnnualSalary}');')");
+            this.ExecuteNonQuery($"insert into ProfessionalEmploymentDetails values ('{professionalEmploymentDetails.CurrentCompany}','{professionalEmploymentDetails.Skills}','{professionalEmploymentDetails.Industry}','{professionalEmploymentDetails.AnnualSalary}')");
         }
     }
 }

@@ -10,7 +10,7 @@ namespace Naukri.com.Domain
     {
         public void UserDetailAdd(UserPersonalDetails userPersonalDetails)
         {
-            this.ExecuteNonQuery($"insert into UserPersonalDetails values ('{userPersonalDetails.UserName}','{userPersonalDetails.EmailId}','{userPersonalDetails.CreatePassword}','{userPersonalDetails.MobileNumber}','{userPersonalDetails.CurrentLocation}','{userPersonalDetails.HighestQualification}','{userPersonalDetails.CurrentPercentage}',{userPersonalDetails.SelectedCategory},'{userPersonalDetails.Resume}');')");
+            this.ExecuteNonQuery($"insert into UserPersonalDetails values ('{userPersonalDetails.UserName}','{userPersonalDetails.EmailId}','{userPersonalDetails.CreatePassword}','{userPersonalDetails.MobileNumber}','{userPersonalDetails.CurrentLocation}','{userPersonalDetails.HighestQualification}','{userPersonalDetails.CurrentPercentage}',{userPersonalDetails.SelectedCategory},'{userPersonalDetails.Resume}')");
         }
    
 

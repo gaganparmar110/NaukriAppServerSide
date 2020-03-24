@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gagan\\source\\repos\\NaukriApp\\NaukriApp.csproj": {}
+    "C:\\Users\\Gagan\\source\\repos\\API-PROJECTS\\NaukriAppServerSide\\NaukriApp\\NaukriApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gagan\\source\\repos\\NaukriApp\\NaukriApp.csproj": {
+    "C:\\Users\\Gagan\\source\\repos\\API-PROJECTS\\NaukriAppServerSide\\NaukriApp\\NaukriApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gagan\\source\\repos\\NaukriApp\\NaukriApp.csproj",
+        "projectUniqueName": "C:\\Users\\Gagan\\source\\repos\\API-PROJECTS\\NaukriAppServerSide\\NaukriApp\\NaukriApp.csproj",
         "projectName": "NaukriApp",
-        "projectPath": "C:\\Users\\Gagan\\source\\repos\\NaukriApp\\NaukriApp.csproj",
+        "projectPath": "C:\\Users\\Gagan\\source\\repos\\API-PROJECTS\\NaukriAppServerSide\\NaukriApp\\NaukriApp.csproj",
         "packagesPath": "C:\\Users\\Gagan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gagan\\source\\repos\\NaukriApp\\obj\\",
+        "outputPath": "C:\\Users\\Gagan\\source\\repos\\API-PROJECTS\\NaukriAppServerSide\\NaukriApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gagan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

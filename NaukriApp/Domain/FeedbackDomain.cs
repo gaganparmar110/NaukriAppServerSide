@@ -10,7 +10,7 @@ namespace NaukriApp.Domain
     {
         public void FeedbackAdd(Feedbacks feedbacks)
         {
-            this.ExecuteNonQuery($"insert into ProfessionalEmploymentDetails values ('{feedbacks.UserId}','{feedbacks.Message}');')");
+            this.ExecuteNonQuery($"insert into ProfessionalEmploymentDetails values ('{feedbacks.UserId}','{feedbacks.Message}')");
         }
     }
 }
